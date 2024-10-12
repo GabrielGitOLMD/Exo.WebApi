@@ -3,6 +3,7 @@ using Exo.WebApi.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using Wxo.WebApi.Models;
 
 namespace Exo.WebApi.Controllers
 {
@@ -21,6 +22,43 @@ namespace Exo.WebApi.Controllers
          IActionResult Listar()
         {
             return Ok(_projetoRepository.Listar());
+        }
+        // codigo novo que completa o crud.
+        [HttpPost]
+        public IActionResult Cadastrar(Projeto projeto);
+        {
+            _projetoRepository.Cadastrar(projeto);
+            return StatusCode(201);
+        }
+        [HttpGet("{id}")]
+        public IActionResult BuscarPorId(int id)
+        {
+            Projeto projeto = _projetoRepository.BuscarporId(id);
+            if (projeto == null)
+            {
+                return NotFound();
+            }
+            return Ok(projeto);
+
+        }
+        [HttpPut("{id}")]
+        public IActionResult Atualizar(int id, Projeto projeto)
+        {
+            _projetoRepository.Atualizar(id, projeto);
+            return StatusCode(204);
+        }
+        [HttpDelete("{id}")]
+        public IActionResult Deletar(int id)
+        {
+            try
+            {
+                _projetoRepository.Deletar(id);
+                return StatusCode(204);
+            }
+            catch(Exception e)
+            {
+                return BadRequest();
+            }
         }
     }
 }
