@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Desktop\\desktop\\Codificação Front-End\\Exo.WebApi\\Exo.WebApi.csproj": {}
+    "C:\\Users\\Desktop\\Desktop\\Codificação Front-End\\Exo.WebApi\\Exo.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Desktop\\desktop\\Codificação Front-End\\Exo.WebApi\\Exo.WebApi.csproj": {
+    "C:\\Users\\Desktop\\Desktop\\Codificação Front-End\\Exo.WebApi\\Exo.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Desktop\\desktop\\Codificação Front-End\\Exo.WebApi\\Exo.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Desktop\\Desktop\\Codificação Front-End\\Exo.WebApi\\Exo.WebApi.csproj",
         "projectName": "Exo.WebApi",
-        "projectPath": "C:\\Users\\Desktop\\desktop\\Codificação Front-End\\Exo.WebApi\\Exo.WebApi.csproj",
+        "projectPath": "C:\\Users\\Desktop\\Desktop\\Codificação Front-End\\Exo.WebApi\\Exo.WebApi.csproj",
         "packagesPath": "C:\\Users\\Desktop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Desktop\\desktop\\Codificação Front-End\\Exo.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Desktop\\Desktop\\Codificação Front-End\\Exo.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Desktop\\AppData\\Roaming\\NuGet\\NuGet.Config"
